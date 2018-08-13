@@ -1,0 +1,25 @@
+@media screen and (max-device-width: 480px){
+  body{ -webkit-text-size-adjust: 100%; }
+}
+p { font-size : 17px; }
+h1 { padding : 0; margin : 0; font-size : 36px; }
+h2 { font-size : 22px; margin : 0; padding : 0; }
+body { padding : 0; font-family: 'Lato', sans-serif; font-size : 17px; background-color : rgb(30, 30, 30); } /*background : url('bg-clouds.jpg'); background-size:100% auto; background-attachment:fixed;} */
+body { background: rgb(255,255,255); } /* Old browsers */
+a { text-decoration : none; }
+a:hover { color: #C00; }
+a, a:visited { color : #0080ff; }
+blockquote { width : 800px; margin : 10px auto; padding-left : 20px; padding-right : 20px; padding-top: 1px ; padding-bottom: 1px; border-radius: 20px; background-color :rgba(255, 255, 255, 0.9); clear:both; box-shadow: 0px 0px 50px #e3e1e4; }
+
+.section { width : 800px; margin : 25px auto; padding : 25px; border-radius: 20px; background-color :rgba(255, 255, 255, 0.9); clear:both; box-shadow: 0px 0px 50px #e3e1e4; }
+.link a { margin : 0 10px; }
+.link a.first { margin : 0 10px 0 0; }
+.link a:hover { color: #C00; }
+.link a, a:visited { color : #0080ff; }
+
+#title-photo{ float:right; margin-right:0px; width:200px; height:200px; border-radius: 20px; }
+
+.publication { clear : left; padding-bottom : 0px; }
+.publication strong a { color : #000; }
+.publication img { width: 110px; height: 110px; border-radius : 15px; margin-right : 20px; float : left; border : 0; }
+.line{ clear:both; border-bottom:2px #eee solid; }
